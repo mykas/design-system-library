@@ -1,0 +1,11 @@
+{
+  "name": "__library-name__",
+  "rootDir": "storybook-static",
+  "files": [
+    "*"
+  ],
+  "exposure": [
+    "bo",
+    "wix-pages"
+  ]
+}

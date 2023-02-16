@@ -1,0 +1,18 @@
+{
+  "extends": "@wix/yoshi-flow-library/tsconfig.flow.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist/esm",
+    "declarationDir": "dist/types",
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "files": [
+    "./src/external-types.d.ts",
+    "./src/test-types.d.ts"
+  ]
+}

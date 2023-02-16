@@ -1,0 +1,11 @@
+dist
+node_modules
+target
+maven
+coverage
+typings
+.history
+test/e2e/screenshots
+.yo-rc.json
+.env*.local
+storybook-static
