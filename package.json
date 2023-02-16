@@ -2,9 +2,7 @@
   "name": "design-system-library",
   "private": true,
   "packageManager": "yarn@3.3.1",
-  "scripts": {
-    "generate:library": "node ./scripts/generate-library.mjs"
-  },
+  "scripts": {},
   "lint-staged": {
     "package.json": "yarn syncpack format",
     "yarn.lock": "yarn dedupe"
